@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Explorer</title>
+    <link rel="stylesheet" href="explore.css">
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+         <li class="navbar-item">
+           <a href="index.html" class="navbar-link " data-nav-link>Homepage</a>
+         </li>
+
+         <li class="navbar-item">
+           <a href="explore.html" class="navbar-link active" data-nav-link>Buy Crypto</a>
+         </li>
+
+         <li class="navbar-item">
+           <a href="market.html" class="navbar-link" data-nav-link>Markets</a>
+         </li>
+
+         <li class="navbar-item">
+           <a href="#" class="navbar-link" data-nav-link>Sell Crypto</a>
+         </li>
+
+         <li class="navbar-item">
+           <a href="#" class="navbar-link" data-nav-link>Blog</a>
+         </li>
+
+         <li class="navbar-item">
+           <a href="#" class="navbar-link" data-nav-link>BITUSDT</a>
+         </li>
+
+       </ul>
+       <a href="wallet.html" class="btn">Wallet</a>
+     </nav>
+    </div>
+    <header>
+        <img src="img/logo.png" alt="Logo"class="logo">
+        <h1>Crypto Explorer</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for coins.." title="Type in a name">
+        </div>
+    </header>
+    <main>
+        <section class="crypto-list">
+            <h2>Top Cryptocurrencies</h2>
+            <br>
+            <hr color="white">
+            <ul id="crypto-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Crypto Explorer</p>
+    </footer>
+    <script src="explore.js"></script>
+</body>
+</html>
